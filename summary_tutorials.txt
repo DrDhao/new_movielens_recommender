@@ -1,0 +1,15 @@
+
+
+Tutorial 1:
+    The first tutorial is about backpropagation.
+    Backpropagation is the method of how a network is trained by knowing the ground truth and going back from there.
+    It uses the derivate to calculate the adjustment of the parameters of each layer.
+    In the tutorial we first made our own version ( that was tediuos) and later used the tensorflow lib.
+
+Tutorial 2:
+    Using a pretrainged model to use the knowlege of a model trained on a big dataset to improve our code.
+    To use the model for feature extraction we freeze the parameters of the pretrained model.
+
+Tutorial 3:
+    We used the U-net architecture. To evaluate we used the dice coeffcient loss, that compares two "quantities".
+    For training we used a data generator.
